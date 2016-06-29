@@ -1,3 +1,8 @@
+Reproducing https://github.com/HashNuke/hound/issues/116
+
+It is related to bootstrap navbar and works on selenium but fails on phantomjs.
+
+
 # PhoenixHoundIssue_116
 
 To start your Phoenix app:
