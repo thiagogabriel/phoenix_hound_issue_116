@@ -1,11 +1,5 @@
 defmodule PhoenixHoundIssue_116.MainTest do
-  use PhoenixHoundIssue_116.ConnCase
-
-  # Import Hound helpers
-  use Hound.Helpers
-
-  # Start a Hound session
-  hound_session
+  use PhoenixHoundIssue_116.IntegrationCase
 
   test "GET /" do
     navigate_to "/"
