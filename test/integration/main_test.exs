@@ -9,8 +9,6 @@ defmodule PhoenixHoundIssue_116.MainTest do
 
   test "GET /" do
     navigate_to "/"
-    click({:link_text, "Guides"})
-
-    assert page_source =~ "happily"
+    click({:link_text, "Google"})
   end
 end
